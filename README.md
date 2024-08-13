@@ -9,7 +9,7 @@ The purpose of this project was to understand:
 1. What messages and concerns would the customer like to convey in their comments?
 2. What are the products that are on the list for positive and negative sentiments?
 
-Dataset is avaialable [Here](https://github.com/ChanWenLe/Natural-Language-Processing/blob/main/New%20folder/AMAZON_FASHION_5.json.gz)
+Dataset is available [Here](https://github.com/ChanWenLe/Natural-Language-Processing/blob/main/New%20folder/AMAZON_FASHION_5.json.gz)
 
 # Scope & Project Steps
 ### 1.)Scope
