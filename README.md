@@ -8,6 +8,8 @@ The purpose of this project was to understand:
 1. What messages and concerns would the customer like to convey in their comments?
 2. What are the products that are on the list for positive and negative sentiments?
 
+Dataset is avaialable [Here]()
+
 # Scope & Project Steps
 ### 1.)Scope
 
@@ -15,8 +17,8 @@ This project focuses on the Amazon Fashion segment, specifically analysing custo
 
 ### 2.)Project Steps
 1. Data Preprocessing and Wrangling
-2. Data Visualisation
-3. Data 
+2. Sentiment Analysis 
+3. Data Visualisation 
 4. Evaluation of Results
 
 # Data Preprocessing and Wrangling
@@ -30,7 +32,8 @@ With the raw dataset, a few data cleaning steps were conducted with Python. Code
 
 **4.  Tokenisation of the Corpus:** <br> To identify the list of words that emerge most frequently from customer comments, the cleaned corpus was broken down into individual words or phrases. This process is essential for analysing the frequency and distribution of distinct words.  <br>
 
-### 1. Messages Dataset:
+# Sentiment Analysis
+### 1.NLTK:
 - Date: Date of message pushed live
 - Category: Type of message (Product, Campaign, Promo)
 - Total Recipient: Number of followers who received the message
@@ -38,7 +41,7 @@ With the raw dataset, a few data cleaning steps were conducted with Python. Code
 - Clickthrough: Number of recipients who clicked on the image or link
 - Content Format: Executed content type (Static, Carousel, Video, Text Bubble)
 
-### 2. Friends Dataset:
+### 2. TextBlob:
 - Total Friends: Total followers
 - Target Reach Friends: The number of followers the account can reach through targeted messages based on gender, age, and/or region.
 - Blocked Accounts: Total followers who block the branded account
