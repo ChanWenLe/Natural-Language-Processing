@@ -34,20 +34,22 @@ With the raw dataset, a few data cleaning steps were conducted with Python. Code
 **4.  Tokenisation of the Corpus:** <br> To identify the list of words that emerge most frequently from customer comments, the cleaned corpus was broken down into individual words or phrases. This process is essential for analysing the frequency and distribution of distinct words.  <br>
 
 # Sentiment Analysis
+
+Different libraries, such as NLTK and TextBlob, were used to conduct sentiment analysis. The results were then compared with customer ratings recorded under the 'overall' column, ranging from 1 to 5, with the assumption that these ratings genuinely reflect customer satisfaction levels.
+
+Ratings of 1 and 2 are classified as negative sentiment, 3 as neutral, and 4 and 5 as positive sentiment. Similarly, sentiment scores from the models are categorized as negative if they are below -0.05 and recognized as positive if they are above 0.05. After standardizing the results from both columns, they were compared for accuracy using the sklearn library.
+
+It was observed that NLTK's VADER model, with an accuracy of 81.23%, slightly outperformed TextBlob, which had an accuracy of 79.22%. Thus, the NLTK sentiment analysis model is preferred due to its higher accuracy rate.
+
 ### 1.NLTK:
 ![Distribution of Sentiment Scores for NLTK](https://github.com/user-attachments/assets/f39fb666-6840-4941-98bc-dac6f91b7c47)
+![Distribution of Sentiment Scores for NLTK2](https://github.com/user-attachments/assets/2852de58-c19c-41a8-8bb8-91847631f99f)
 
-- Date: Date of message pushed live
-- Category: Type of message (Product, Campaign, Promo)
-- Total Recipient: Number of followers who received the message
-- Open Count: Number of recipients who opened the message
-- Clickthrough: Number of recipients who clicked on the image or link
-- Content Format: Executed content type (Static, Carousel, Video, Text Bubble)
 
 ### 2. TextBlob:
-- Total Friends: Total followers
-- Target Reach Friends: The number of followers the account can reach through targeted messages based on gender, age, and/or region.
-- Blocked Accounts: Total followers who block the branded account
+![Distribution of Sentiment Scores for Textblob](https://github.com/user-attachments/assets/cefd0636-a762-4445-9789-e1403b16aa94)
+![Distribution of Sentiment Scores for Textblob 2](https://github.com/user-attachments/assets/4f784a06-4385-432e-a68f-a6fc8e3d4585)
+
 
 # Key Insights
 Designed to analyse a few trends and relationships:
