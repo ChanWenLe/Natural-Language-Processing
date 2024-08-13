@@ -29,7 +29,7 @@ With the raw dataset, a few data cleaning steps were conducted with Python. Code
 
 **2.  Data Type Correction:** <br> To ensure consistency in textual analysis and facilitate analysis operations, 'style' column was converted from their original format to string. <br>
 
-**3. Data Preprocessing for Sentiment Analysis:** <br>The text was cleaned by removing punctuation and converting all letters to lowercase. Stop words were removed to focus on more meaningful words, subsequently, lemmatization was applied to bring words to their base or root form, aiding in the simplification and standardisation of data for analysis. <br>
+**3. Data Preprocessing for Sentiment Analysis:** <br>The text was cleaned by removing punctuation and converting all letters to lowercase. Stop words were removed to focus on more meaningful words, subsequently, lemmatization was applied to bring words to their base or root form, aiding in the simplification and standardization of data for analysis. <br>
 
 **4.  Tokenisation of the Corpus:** <br> To identify the list of words that emerge most frequently from customer comments, the cleaned corpus was broken down into individual words or phrases. This process is essential for analysing the frequency and distribution of distinct words.  <br>
 
