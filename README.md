@@ -12,10 +12,21 @@ The purpose of this project was to understand:
 This project focuses on the Amazon Fashion segment, specifically analysing customer reviews of footwear to gain insights into their sentiments and preferences. The primary aim is to harness these insights to enhance customer satisfaction and loyalty, which are crucial for standing out from crowd and maintaining a competitive edge in the online retail market.
 
 ### 2.)Project Steps
-1. Data Understanding
-2. Data Wrangling
-3. Data Visualisation
+1. Data Preprocessing and Wrangling
+2. Data Visualisation
+3. Data 
 4. Evaluation of Results
+
+# Data Preparation
+With the raw dataset, a few data cleaning steps were conducted with Python. Code available in the "Amazon Reviews.ipynb" file.
+
+**1.  Handling Null Values:** <br> The dataset underwent a null value check, revealing an empty 'style' column. <br>
+
+**2.  Data Type Correction:** <br> To ensure consistency and facilitate numerical operations, 'style' column was converted from their original format to numeric. <br>
+
+**3. Tokenising Customers Review:** <br> The dataset underwent a null value check, revealing an empty 'style' column. <br>
+
+**4.  Data Type Correction:** <br> To ensure consistency and facilitate numerical operations, 'style' column was converted from their original format to numeric. <br>
 
 ### 1. Messages Dataset:
 - Date: Date of message pushed live
