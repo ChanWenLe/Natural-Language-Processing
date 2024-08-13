@@ -1,4 +1,4 @@
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fhow-amazon-changed-reviews-callum-mckeefery&psig=AOvVaw1SY3x-V956yT21U86YzpYO&ust=1723627114140000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiPj8LR8YcDFQAAAAAdAAAAABAE
+
 
 # Project Summary
 Customer reviews and their associated ratings are feedback that sellers and Amazon should monitor to better comprehend customer experiences and address concerns effectively, thereby helping them remain competitive and stay relevant in the fast-paced retail sector.
