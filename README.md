@@ -1,5 +1,9 @@
-# Overview
-This Tableau dashboard is to analyse marketing communication pushes on Nike Thailand's branded LINE profile. The objective is to provide the marketing team with insights into message performance, follower engagement, and trends over the period from January 2020 to February 2022. The types of messages can be seen below.
+# Project Summary
+This project analyzes customer reviews within Amazon's Fashion category, focusing on shoes, to extract and interpret sentiments and key insights from the "reviewText" data. Utilizing sentiment analysis (Textblob, Vader), named entity recognition (spaCy), and topic modeling (Bag of Words, LDA, TF-IDF, NMF), the project aims to uncover patterns and trends in customer feedback.
+
+Key findings indicate that 82.7% of reviews are positive, with frequent praise for shoe sizes "8 B(M) US", "9 B(M) US", and "8.5 B(M) US" in the "Black/White/Anthracite/Stealth" colorway. Common positive topics include "comfort" and "fit," while negative feedback often centers around sizing issues, return difficulties, and shipping delays.
+
+The insights derived from this analysis can help Amazon and sellers optimize product offerings, refine return processes, and improve customer satisfaction, thereby enhancing the overall shopping experience and maintaining a competitive edge in the online retail market.
 
 ![nike profile](https://github.com/Kfkyyian1/linetableaudashboard/assets/146427900/8c4bd117-07fe-4881-b376-b02e88a2c19d) <br>
 ![Types of messages](https://github.com/Kfkyyian1/linetableaudashboard/assets/146427900/c5bb08cc-9554-4236-a7f6-2f1ef1e8bb16)
