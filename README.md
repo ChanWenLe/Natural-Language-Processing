@@ -1,4 +1,5 @@
 
+![Screenshot 2024-08-13 191328](https://github.com/user-attachments/assets/0a7f496c-e38f-421d-aec0-3cba5f1fe6f5)
 
 # Project Summary
 Customer reviews and their associated ratings are feedback that sellers and Amazon should monitor to better comprehend customer experiences and address concerns effectively, thereby helping them remain competitive and stay relevant in the fast-paced retail sector.
@@ -34,7 +35,8 @@ With the raw dataset, a few data cleaning steps were conducted with Python. Code
 
 # Sentiment Analysis
 ### 1.NLTK:
-https://github.com/ChanWenLe/Natural-Language-Processing/blob/main/New%20folder/Distribution%20of%20Sentiment%20Scores%20for%20NLTK.png?raw=true
+![Distribution of Sentiment Scores for NLTK](https://github.com/user-attachments/assets/f39fb666-6840-4941-98bc-dac6f91b7c47)
+
 - Date: Date of message pushed live
 - Category: Type of message (Product, Campaign, Promo)
 - Total Recipient: Number of followers who received the message
