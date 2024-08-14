@@ -18,9 +18,12 @@ This project focuses on the Amazon Fashion segment, specifically analysing custo
 
 ### 2.)Project Steps
 1. Data Preprocessing and Wrangling
-2. Sentiment Analysis 
-3. Data Visualisation 
-4. Evaluation of Results
+2. Sentiment Analysis <br>
+   -NLTK <br>
+   -TextBlob <br>
+   -SpaCy
+4. Data Visualisation 
+5. Evaluation of Results
 
 # Data Preprocessing and Wrangling
 With the raw dataset, a few data cleaning steps were conducted with Python. Code available in the "Amazon Reviews.ipynb" file.
@@ -49,6 +52,18 @@ It was observed that NLTK's VADER model, with an accuracy of 81.23%, slightly ou
 ### 2. TextBlob:
 ![Distribution of Sentiment Scores for Textblob](https://github.com/user-attachments/assets/cefd0636-a762-4445-9789-e1403b16aa94)
 ![Distribution of Sentiment Scores for Textblob 2](https://github.com/user-attachments/assets/4f784a06-4385-432e-a68f-a6fc8e3d4585)
+
+
+### SpaCy
+After using NLTK for initial sentiment analysis, spaCy was deployed to enhance accuracy and efficiency. While NLTK and TextBlob are great for basic text processing, spaCy's advanced capabilities in Named Entity Recognition (NER) and dependency parsing, along with its high performance and easy integration, make it ideal for refining and expanding the analysis.
+![Screenshot 2024-08-13 191328](https://github.com/user-attachments/assets/df7891b7-ea79-4bbc-b926-67011075de1a)
+![Picture1](https://github.com/user-attachments/assets/8983906e-3c59-4394-82a8-c65d8707c168)
+
+A predominance of 'CARDINAL' entities has been observed. It typically consists of numeric data that could relate to product sizes, quantities, or frequency of use mentioned in customer reviews. These insights could inform stock management decisions and help anticipate customer needs. 'ORG' is another entity which deserve the attention, it highlights the brand mentions which are invaluable for measuring brand visibility and perception in the market. Brands like 'Nike' are prominently mentioned, indicating significant customer engagement that could drive strategic marketing campaigns.
+
+'CARDINAL' terms such as 'half' or specific numbers may inform businesses about prevalent customer preferences or sizing issues. Meanwhile, the frequent citation of 'Nike' and similar 'supreme tr' entities could signal which brands are top-of-mind for consumers, guiding competitive strategy and brand positioning.
+
+The presence of 'DATE' entities might reflect on the usage patterns, durability of products or customer experiences. For instance, frequent references to "several years" or "daily" suggest the usage patterns or durability of product, informing potential promotional narratives or product improvement strategies.
 
 
 # Key Insights
