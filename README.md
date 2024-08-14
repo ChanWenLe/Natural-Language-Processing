@@ -22,8 +22,8 @@ This project focuses on the Amazon Fashion segment, specifically analysing custo
    -NLTK <br>
    -TextBlob <br>
    -SpaCy
-4. Data Visualisation 
-5. Evaluation of Results
+3. Evaluation of Results
+4. Conclusion
 
 # Data Preprocessing and Wrangling
 With the raw dataset, a few data cleaning steps were conducted with Python. Code available in the "Amazon Reviews.ipynb" file.
@@ -86,3 +86,14 @@ On the other hand, the most common key terms associated with negative sentiment 
 ![image](https://github.com/user-attachments/assets/c2ec7b97-fd0d-49ee-ac3b-bb0486282897)
 
 The analysis highlights the specific styles that have received positive feedback from customers, particularly in the shoe sizes of 8 B(M) US, 9 B(M) US, and 8.5 B(M) US, and in the colour combination Black/White/Anthracite/Stealth. This information is valuable for the platform and vendors to understand consumer preferences.
+
+# Conclusion
+
+Leveraging insights from NER results and top 20 favoured style combinations, Amazon can make informed inventory decisions by ensuring that popular sizes and colours are readily available especially during high demanding period. Such strategy can help sellers in preventing stockouts and unnecessary markdowns of pricing, leading to better sales turnover and profitability.
+
+Furthermore, Amazon can utilise positive sentiment from the reviews to tailor its marketing campaigns to highlight the attributes which customers love the most, such as comfort and fit. Special promotions or loyalty programs centred around the most favoured styles can further capitalise on known customer preferences, which results in a higher conversion rate.
+
+On the other hand, the significant prominence of the word "return" in the negative sentiments suggests customers are dissatisfied with the product and prefer returning the order to retailer. This trend should be addressed with a deeper analysis into the causes of dissatisfaction to reduce return rates. It would be advisable to investigate the specific reasons of returning, whether they relate to sizing issues, quality concerns, or mismatches between product description and actual items. Understanding these reasons can help in improving in process flows, for instance, implementing a tighter quality assurance standard and ensure the descriptions mentioned truly reflect the actual product. 
+
+Additionally, customer representative should proactively connect with the customers intending to return orders to ensure their concerns have been attended effectively and potentially reduce the need for returns. 
+
