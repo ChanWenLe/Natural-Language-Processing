@@ -49,12 +49,13 @@ It was observed that NLTK's VADER model, with an accuracy of 81.23%, slightly ou
 ![Distribution of Sentiment Scores for NLTK2](https://github.com/user-attachments/assets/2852de58-c19c-41a8-8bb8-91847631f99f)
 
 
+
 ### 2. TextBlob:
 ![Distribution of Sentiment Scores for Textblob](https://github.com/user-attachments/assets/cefd0636-a762-4445-9789-e1403b16aa94)
 ![Distribution of Sentiment Scores for Textblob 2](https://github.com/user-attachments/assets/4f784a06-4385-432e-a68f-a6fc8e3d4585)
 
 
-### SpaCy
+### 3. SpaCy
 After using NLTK for initial sentiment analysis, spaCy was deployed to enhance accuracy and efficiency. While NLTK and TextBlob are great for basic text processing, spaCy's advanced capabilities in Named Entity Recognition (NER) and dependency parsing, along with its high performance and easy integration, make it ideal for refining and expanding the analysis.
 ![Screenshot 2024-08-13 191328](https://github.com/user-attachments/assets/df7891b7-ea79-4bbc-b926-67011075de1a)
 ![Picture1](https://github.com/user-attachments/assets/8983906e-3c59-4394-82a8-c65d8707c168)
@@ -66,20 +67,22 @@ A predominance of 'CARDINAL' entities has been observed. It typically consists o
 The presence of 'DATE' entities might reflect on the usage patterns, durability of products or customer experiences. For instance, frequent references to "several years" or "daily" suggest the usage patterns or durability of product, informing potential promotional narratives or product improvement strategies.
 
 
-# Key Insights
-Designed to analyse a few trends and relationships:
-1. Category vs Open Counts: Examining the correlation between message categories and open counts.
-2. Category vs Clickthrough: Analyzing how different message categories impact user clickthrough rates.
-3. Content Format vs Clickthrough: Assessing the effectiveness of various content formats in generating clickthrough.
-4. Average Open Rate per Year: Calculating the average open rate per year (Total open counts/Total Recipients *100%).
-5. Average Clickthrough Rate per Year: Determining the average clickthrough rate per year (Total clickthrough/Total Recipients *100%).
-6. Trend of Friends, Blocked Accounts, and Target Reach Friends per Year: Tracking the annual trends in the number of friends, blocked accounts, and target reach friends.
+# Evaluation of Results
 
-# Dashboard Link
-Explore the interactive dashboard [here](https://public.tableau.com/app/profile/k.f4836/viz/NikeLINEDashboard/Dashboard?publish=yes)
-<img width="1428" alt="Screenshot 2023-11-19 at 10 45 13 AM" src="https://github.com/Kfkyyian1/linetableaudashboard/assets/146427900/e954cdde-afb9-4388-827f-f08379bd100f">
 
-# Data Insights:
-1. Yearly Trends: The average total friends show a consistent increase year on year. However, blocked accounts increased from 2020 to 2021, with a slight decrease in 2022. Simultaneously, the average number of target reach friends is decreasing, indicating potential user disengagement. They might be phasing out of LINE and prefer to use other social messaging platforms instead.
-2. Category Analysis: Product and campaign categories exhibit higher average open counts, while product and promo categories have the highest average clickthrough. Users are more engaged with product-related messaging, indicating a desire to explore new product launches and make purchases.
-3. Content Format Effectiveness: Plain vanilla static content format demonstrates the highest average clickthrough, suggesting that this format requires minimal user interaction and encourages direct engagement with the call-to-action.
+### 1. What messages and concerns would the customer like to convey in their comments?
+
+![image](https://github.com/user-attachments/assets/6976de95-4b97-4211-945c-8e9d55492f33)
+![image](https://github.com/user-attachments/assets/bd115277-4106-4340-98ef-2fd07963fa77)
+
+Using the NLTK model, it showed that 82.7% of reviews were positive, 10.6% were neutral, and 6.6% were negative. Two different subsets were filtered out: the positive sentiment subset and the negative sentiment subset. The positive sentiment subset consisted of reviews with a sentiment score of 0.5 or higher and a rating of 4 or 5, whereas the negative sentiment subset included data with a sentiment score of -0.05 or below, or ratings of 1 and 2. This distribution into two groups aims to closely examine and understand the feedback categorized under the respective sentiments. It is necessary since negative sentiment constitutes only 6.6% of the total data.
+
+From the observation of the word cloud above, the most frequent words identified in positive sentiment feedback—'shoe,' 'comfortable,' 'love,' 'fit,' and 'great'—dominate these visuals, highlighting customer priorities and satisfaction. The recurrence of terms like 'comfortable,' 'love,' and 'fit' suggests a positive reception of the products' quality and alignment with advertisement claims, while 'great' signals overall approval. These findings, especially the frequent mention of 'love', may indicate strong performance by sellers, reflecting well on customer satisfaction and product fit.
+
+On the other hand, the most common key terms associated with negative sentiment feedback include "return," "size," and "hurt," indicating common issues customers have encountered. The significant presence of "return" suggests a substantial volume of returns due to dissatisfaction. Terms like "small" and "big" likely refer to problems with sizing or fit, while "discomfort" and "hurt" could point to issues with the physical experience of wearing the products.
+
+### 2. What are the products that are on the list for positive and negative sentiments?
+![image](https://github.com/user-attachments/assets/6c796208-e84c-45af-95d4-4b54080c0182)
+![image](https://github.com/user-attachments/assets/c2ec7b97-fd0d-49ee-ac3b-bb0486282897)
+
+The analysis highlights the specific styles that have received positive feedback from customers, particularly in the shoe sizes of 8 B(M) US, 9 B(M) US, and 8.5 B(M) US, and in the colour combination Black/White/Anthracite/Stealth. This information is valuable for the platform and vendors to understand consumer preferences.
